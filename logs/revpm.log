@@ -73,3 +73,79 @@
 2026-01-29 18:36:13 WARN  com.revpm.service.OTPService - OTP validation failed for userId=1
 2026-01-29 18:36:13 INFO  com.revpm.service.OTPService - OTP generation started for userId=1
 2026-01-29 18:36:13 INFO  com.revpm.service.OTPService - OTP generated and saved successfully for userId=1 (expires in 2 minutes)
+2026-01-29 21:58:53 INFO  com.revpm.service.PasswordService - Fetching password entries for userId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.PasswordService - Found 1 password entries for userId=1
+2026-01-29 21:58:53 WARN  com.revpm.service.PasswordService - Deleting password entry entryId=1 for userId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.PasswordService - Password entry deleted entryId=1 for userId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.PasswordService - Adding password entry for userId=1 account=Gmail
+2026-01-29 21:58:53 INFO  com.revpm.service.PasswordService - Password entry added successfully for userId=1 account=Gmail
+2026-01-29 21:58:53 INFO  com.revpm.service.UserService - User registration started for email: test@gmail.com
+2026-01-29 21:58:53 WARN  com.revpm.service.UserService - Duplicate registration attempt for email: test@gmail.com
+2026-01-29 21:58:53 INFO  com.revpm.service.UserService - User registration started for email: test@gmail.com
+2026-01-29 21:58:53 INFO  com.revpm.service.UserService - User registered successfully for email: test@gmail.com
+2026-01-29 21:58:53 INFO  com.revpm.service.UserService - Login attempt for email: wrong@gmail.com
+2026-01-29 21:58:53 INFO  com.revpm.service.UserService - Login attempt for email: wrong@gmail.com
+2026-01-29 21:58:53 INFO  com.revpm.service.UserService - Login attempt for email: sai@gmail.com
+2026-01-29 21:58:53 INFO  com.revpm.service.UserService - User logged in successfully: sai@gmail.com
+2026-01-29 21:58:53 INFO  com.revpm.service.SecurityQuestionService - Adding security question for userId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.SecurityQuestionService - Security question added successfully for userId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.SecurityQuestionService - Fetching security questions for userId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.SecurityQuestionService - Fetched 1 security questions for userId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.SecurityQuestionService - Updating security question answer questionId=1 userId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.SecurityQuestionService - Security question updated successfully questionId=1
+2026-01-29 21:58:53 WARN  com.revpm.service.SecurityQuestionService - Deleting security question questionId=1 userId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.SecurityQuestionService - Security question deleted successfully questionId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.OTPService - OTP generation started for userId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.OTPService - OTP generated and saved successfully for userId=1 (expires in 2 minutes)
+2026-01-29 21:58:53 INFO  com.revpm.service.OTPService - OTP validation attempt for userId=1
+2026-01-29 21:58:53 WARN  com.revpm.service.OTPService - OTP validation failed for userId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.OTPService - OTP validation attempt for userId=1
+2026-01-29 21:58:53 INFO  com.revpm.service.OTPService - OTP validation successful for userId=1
+2026-01-30 10:29:43 INFO  com.revpm.main.App - APPLICATION STARTED
+2026-01-30 10:34:00 INFO  com.revpm.service.UserService - Login attempt for email: geetha@email.com
+2026-01-30 10:34:01 INFO  com.revpm.service.UserService - Login attempt for email: geetha@email.com
+2026-01-30 10:35:55 INFO  com.revpm.service.UserService - Login attempt for email: vayalasaikumar5250@gmail.com
+2026-01-30 10:35:56 INFO  com.revpm.service.UserService - User logged in successfully: vayalasaikumar5250@gmail.com
+2026-01-30 10:38:20 INFO  com.revpm.service.PasswordService - Searching password entries for userId=5 keyword=a
+2026-01-30 10:38:20 INFO  com.revpm.service.PasswordService - Search completed for userId=5 found=2
+2026-01-30 10:42:28 INFO  com.revpm.service.UserService - User registration started for email: sam@gmail.com
+2026-01-30 10:42:29 INFO  com.revpm.service.UserService - User registered successfully for email: sam@gmail.com
+2026-01-30 10:43:08 INFO  com.revpm.service.UserService - Login attempt for email: sam@gmail.com
+2026-01-30 10:43:08 INFO  com.revpm.service.UserService - User logged in successfully: sam@gmail.com
+2026-01-30 10:43:23 INFO  com.revpm.service.PasswordService - Fetching password entries for userId=23
+2026-01-30 10:43:23 INFO  com.revpm.service.PasswordService - Found 0 password entries for userId=23
+2026-01-30 10:44:29 INFO  com.revpm.service.PasswordService - Adding password entry for userId=23 account=flikart
+2026-01-30 10:44:29 INFO  com.revpm.service.PasswordService - Password entry added successfully for userId=23 account=flikart
+2026-01-30 10:44:38 INFO  com.revpm.service.PasswordService - Fetching password entries for userId=23
+2026-01-30 10:44:38 INFO  com.revpm.service.PasswordService - Found 1 password entries for userId=23
+2026-01-30 10:50:16 INFO  com.revpm.service.PasswordService - Fetching password entries for userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.PasswordService - Found 1 password entries for userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.PasswordService - Adding password entry for userId=1 account=Gmail
+2026-01-30 10:50:16 INFO  com.revpm.service.PasswordService - Password entry added successfully for userId=1 account=Gmail
+2026-01-30 10:50:16 WARN  com.revpm.service.PasswordService - Deleting password entry entryId=1 for userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.PasswordService - Password entry deleted entryId=1 for userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.UserService - User registration started for email: test@gmail.com
+2026-01-30 10:50:16 INFO  com.revpm.service.UserService - User registered successfully for email: test@gmail.com
+2026-01-30 10:50:16 INFO  com.revpm.service.UserService - User registration started for email: test@gmail.com
+2026-01-30 10:50:16 WARN  com.revpm.service.UserService - Duplicate registration attempt for email: test@gmail.com
+2026-01-30 10:50:16 INFO  com.revpm.service.UserService - Login attempt for email: wrong@gmail.com
+2026-01-30 10:50:16 INFO  com.revpm.service.UserService - Login attempt for email: wrong@gmail.com
+2026-01-30 10:50:16 INFO  com.revpm.service.UserService - Login attempt for email: sai@gmail.com
+2026-01-30 10:50:16 INFO  com.revpm.service.UserService - User logged in successfully: sai@gmail.com
+2026-01-30 10:50:16 INFO  com.revpm.service.SecurityQuestionService - Fetching security questions for userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.SecurityQuestionService - Fetched 1 security questions for userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.SecurityQuestionService - Adding security question for userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.SecurityQuestionService - Security question added successfully for userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.SecurityQuestionService - Updating security question answer questionId=1 userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.SecurityQuestionService - Security question updated successfully questionId=1
+2026-01-30 10:50:16 WARN  com.revpm.service.SecurityQuestionService - Deleting security question questionId=1 userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.SecurityQuestionService - Security question deleted successfully questionId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.OTPService - OTP generation started for userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.OTPService - OTP generated and saved successfully for userId=1 (expires in 2 minutes)
+2026-01-30 10:50:16 INFO  com.revpm.service.OTPService - OTP validation attempt for userId=1
+2026-01-30 10:50:16 WARN  com.revpm.service.OTPService - OTP validation failed for userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.OTPService - OTP validation attempt for userId=1
+2026-01-30 10:50:16 INFO  com.revpm.service.OTPService - OTP validation successful for userId=1
+2026-01-30 21:45:02 INFO  com.revpm.main.App - APPLICATION STARTED
+2026-01-30 21:45:50 INFO  com.revpm.service.UserService - User registration started for email: mubeen@gmail.com
+2026-01-30 21:45:51 WARN  com.revpm.service.UserService - Duplicate registration attempt for email: mubeen@gmail.com
