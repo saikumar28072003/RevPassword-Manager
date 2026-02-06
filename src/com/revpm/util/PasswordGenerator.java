@@ -2,6 +2,8 @@ package com.revpm.util;
 
 import java.util.Random;
 
+
+
 public class PasswordGenerator {
 
 	public static String generate(int length, boolean upper, boolean lower,
